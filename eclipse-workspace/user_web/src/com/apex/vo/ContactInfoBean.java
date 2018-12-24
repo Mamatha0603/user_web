@@ -16,6 +16,8 @@ public class ContactInfoBean {
 		return city;
 	}
 	public void setCity(String city) {
+		
+		vvvv
 		this.city = city;
 	}
 	public String getState() {
