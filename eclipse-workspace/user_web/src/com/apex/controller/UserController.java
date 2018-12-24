@@ -27,6 +27,8 @@ public class UserController {
 	@RequestMapping("/adduser")
 	public String processAddUser(@ModelAttribute User user) {
 		//step1
+		hhhh
+		
 		System.out.println("Entering :UserController:processAddUser()");
 		
 		
