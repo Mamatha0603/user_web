@@ -19,7 +19,7 @@ public class UserController {
 	
 	@RequestMapping("/user")
 	public String displayEntryUser(@ModelAttribute User user) {
-		return "user ttt";
+		return "user tttttt";
 		
 	}
 	
