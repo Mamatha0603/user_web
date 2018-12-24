@@ -16,7 +16,7 @@ public class LoginBOImpl implements LoginBO {
 		System.out.println("Inside addLoginUser BO method..");
 		
 		loginDAO.addLoginUser(loginBean);
-		
+		System.out.println("testing");
 	}
 
 }
