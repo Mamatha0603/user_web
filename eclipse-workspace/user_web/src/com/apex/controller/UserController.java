@@ -19,6 +19,7 @@ public class UserController {
 	
 	@RequestMapping("/user")
 	public String displayEntryUser(@ModelAttribute User user) {
+		System.out.println("testing..");
 		return "user tttttttttxxxxxxxccccc";
 		
 	}
