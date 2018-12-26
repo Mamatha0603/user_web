@@ -6,6 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
+
 public class LoginUser {
 	private int id;
 	private String name;

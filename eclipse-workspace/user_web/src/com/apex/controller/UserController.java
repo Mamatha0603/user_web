@@ -11,6 +11,7 @@ import com.apex.bo.UserBO;
 import com.apex.vo.User;
 @Controller
 @SessionAttributes
+
 public class UserController {
 	
 	@Autowired
@@ -20,14 +21,14 @@ public class UserController {
 	@RequestMapping("/user")
 	public String displayEntryUser(@ModelAttribute User user) {
 		System.out.println("testing..");
-		return "user tttttttttxxxxxxxccccc";
+		return "user";
 		
 	}
 	
 	@RequestMapping("/adduser")
 	public String processAddUser(@ModelAttribute User user) {
 		//step1
-		hhhh
+		
 		
 		System.out.println("Entering :UserController:processAddUser()");
 		
