@@ -1,8 +1,10 @@
 package Test;
 
 public class StringChar {
+	static int i=10;
 
 	public static void main(String[] args) {
+		StringChar ob=new StringChar();
 		String s="Kavitha";
 		/*char[] array=s.toCharArray();
 		StringBuilder sb=new StringBuilder();
@@ -29,6 +31,8 @@ public class StringChar {
 		}
 		System.out.println("chars:"+sb);
 		System.out.println("chars:"+sb2);
+		System.out.println(i);
+		
 
 	}
 
